@@ -43,6 +43,11 @@ h1 {
     transform-origin: 0 100%;
 }
 
+img {
+    width: 300px; /* Ajusta el tamaño según lo que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
 .p1 { transform: translate(-50%, -50%) rotate(0deg); }
 .p2 { transform: translate(-50%, -50%) rotate(36deg); }
 .p3 { transform: translate(-50%, -50%) rotate(72deg); }
@@ -53,6 +58,9 @@ h1 {
 .p8 { transform: translate(-50%, -50%) rotate(252deg); }
 .p9 { transform: translate(-50%, -50%) rotate(288deg); }
 .p10 { transform: translate(-50%, -50%) rotate(324deg); }
+
+
+
 
 /* Agrega las siguientes clases para las animaciones */
 @keyframes fadeInPetal {
